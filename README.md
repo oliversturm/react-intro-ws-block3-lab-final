@@ -1,2 +1,2 @@
-# react-intro-ws-block3-lab-final
+# research-react-intro-calculator-extended
 Created with CodeSandbox
