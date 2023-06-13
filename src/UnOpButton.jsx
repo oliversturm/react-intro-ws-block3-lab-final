@@ -46,4 +46,5 @@ const UnOpButton = ({ op }) => {
   );
 };
 
-export default memo(UnOpButton);
+const UnOpButtonMemo = memo(UnOpButton);
+export default UnOpButtonMemo;

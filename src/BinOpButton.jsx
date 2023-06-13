@@ -52,4 +52,5 @@ const BinOpButton = ({ op }) => {
   );
 };
 
-export default memo(BinOpButton);
+const BinOpButtonMemo = memo(BinOpButton);
+export default BinOpButtonMemo;

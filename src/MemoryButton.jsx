@@ -41,7 +41,7 @@ const MemoryButton = ({ op }) => {
         value0replace,
         memvalReplace,
         toFloat(value0),
-        toFloat(memval),
+        toFloat(memval)
       );
     }
   }, [opInfo, value0replace, memvalReplace, value0, memval]);
@@ -53,4 +53,5 @@ const MemoryButton = ({ op }) => {
   );
 };
 
-export default memo(MemoryButton);
+const MemoryButtonMemo = memo(MemoryButton);
+export default MemoryButtonMemo;

@@ -36,4 +36,5 @@ const Display = () => {
   );
 };
 
-export default memo(Display);
+const DisplayMemo = memo(Display);
+export default DisplayMemo;
